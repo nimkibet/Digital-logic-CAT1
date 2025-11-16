@@ -10,7 +10,7 @@ class NumberConverterApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Number Converter',
+      title: 'Group Y Number Converter',
       // Use a dark theme for a more modern look
       theme: ThemeData(
         brightness: Brightness.dark,
@@ -93,7 +93,7 @@ class _ConverterScreenState extends State<ConverterScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Number System Converter'),
+        title: const Text('Group Y Number System Converter'),
         centerTitle: true,
         backgroundColor: const Color(0xFF1E1E1E),
         elevation: 0,
